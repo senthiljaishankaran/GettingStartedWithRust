@@ -1,0 +1,34 @@
+Installing Rust
+
+    run this command "curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh"
+
+    And install rustup using appropriate command based on OS
+
+    I am running "sudo pacman -S rustup" in manjaro
+
+    check version " rustc --version cargo --version "
+
+Runnimg first code
+
+    create a file with .rs extension and write the code in it
+
+    compile the file using " rustc filename.rs "
+
+    this will produce a new fle "filename" with out extension
+
+    Now run the file "./filename"
+
+Building a Cargo project
+
+    create a cargo project using "cargo new project_name"
+
+    to build cargo project "cargo build"
+
+    to execute "./target/debug/projectname_as_file"
+
+    to run "cargo run" this command buid and execute the project at the same time
+
+
+
+
+
