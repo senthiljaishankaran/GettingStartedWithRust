@@ -18,9 +18,13 @@ fn main() {
 
     // There are two types of string in rust 
     // 1. str
+    // This is a immutable reference and it is a borrowed string slice
+    // here we have specified mut keyword so that we can modify the str ref string
     let mut st: &str = "Hi";
     println!("Printing string type:{:?}", st);
     // 2. String
+    // A String is a dynamically allocated string type that holds the actual characters of the string
+    // it lives in heap memory
     let str2 : String = "senthil".to_owned();
     st = "Hello";
     println!("Printing Two values:{} {}", str2,st);

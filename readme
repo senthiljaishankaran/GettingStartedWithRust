@@ -28,6 +28,13 @@ Building a Cargo project
 
     to run "cargo run" this command buid and execute the project at the same time
 
+To run a multiple file use the following command and also store the file inside src under folder named bin 
+
+    cargo run --bin file_name
+
+To add any libraries we need to use "cargo add library_name" to add it
+
+To install any program use "cargo install lprogram_name" to install it
 
 
 
